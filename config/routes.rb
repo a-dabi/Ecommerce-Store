@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-
-  root 'simple_pages#index'
+  root "simple_pages#index"
   get "simple_pages/index"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
